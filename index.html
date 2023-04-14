@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter the location" spellcheck="false" id="search-input">
+            <button><img src="image/search-icon.png"></button>
+        </div>
+        <div class="error">
+            <p>Invalid location name</p>
+        </div>
+        <div class="weather">
+            <img src="image/rain-icon.png" class="weather-icon">
+            <h1 class="temp">20°C</h1>
+            <h2 class="location">Mumbai</h2>
+
+            <div class="details">
+                <div class="col">
+                    <img src="image/humidity-icon.jpg" class="humidity-icon">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p class="humidity-title">Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="image/wind-icon.png" class="wind-icon">
+                    <div>
+                        <p class="wind">50% km/h</p>
+                        <p class="wind-title">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
